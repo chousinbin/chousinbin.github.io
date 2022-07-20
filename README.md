@@ -1,1 +1,0 @@
-# chousinbin.github.io
