@@ -25,6 +25,3 @@ titles:
   # @end locale config
 key: page-about
 ---
-
-
-还没有学过前端，学Git之余搭建了这个GitHub Pages的个人网站，用于课外学习。
