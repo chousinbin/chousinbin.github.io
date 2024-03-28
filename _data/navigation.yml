@@ -6,7 +6,7 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  标签
+      zh-Hans : &ZH_HANS  归档
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
@@ -26,29 +26,56 @@ header:
     url: /archive.html
 
   - titles:
-      # @start locale config
-      en      : &EN       About
+    # @start locale config
+      en      : &EN       Home
       en-GB   : *EN
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  关于
+      zh-Hans : &ZH_HANS  主页
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  關於
+      zh-Hant : &ZH_HANT  主頁
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
-      ko      : &KO       소개
+      ko      : &KO       홈
       ko-KR   : *KO
-      fr      : &FR       À propos
+      fr      : &FR       Accueil
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
       fr-FR   : *FR
       fr-LU   : *FR
-      tr      : &TR       Hakkında
+      tr      : &TR       Ana Sayfa
       # @end locale config
-    url: /about.html
+    url: /
+  
 
+  # - titles:
+  #     # @start locale config
+  #     en      : &EN       About
+  #     en-GB   : *EN
+  #     en-US   : *EN
+  #     en-CA   : *EN
+  #     en-AU   : *EN
+  #     zh-Hans : &ZH_HANS  关于
+  #     zh      : *ZH_HANS
+  #     zh-CN   : *ZH_HANS
+  #     zh-SG   : *ZH_HANS
+  #     zh-Hant : &ZH_HANT  關於
+  #     zh-TW   : *ZH_HANT
+  #     zh-HK   : *ZH_HANT
+  #     ko      : &KO       소개
+  #     ko-KR   : *KO
+  #     fr      : &FR       À propos
+  #     fr-BE   : *FR
+  #     fr-CA   : *FR
+  #     fr-CH   : *FR
+  #     fr-FR   : *FR
+  #     fr-LU   : *FR
+  #     tr      : &TR       Hakkında
+  #     # @end locale config
+  #   url: /about.html
+  
   
