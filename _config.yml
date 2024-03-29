@@ -182,7 +182,7 @@ analytics:
 ##############################
 markdown    : kramdown
 highlighter : rouge
-permalink   : /:short_year:month:day:/slug.html
+permalink   : /:short_year:month:day/:title.html
 
 exclude:
   - CHANGELOG.md
