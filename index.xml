@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Sinbin&#39;s Blog</title>
+    <link>https://chousinbin.github.io/</link>
+    <description>Recent content on Sinbin&#39;s Blog</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 28 Apr 2024 14:41:59 +0800</lastBuildDate>
+    <atom:link href="https://chousinbin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>软件测试</title>
+      <link>https://chousinbin.github.io/posts/tech/24040701/</link>
+      <pubDate>Sun, 07 Apr 2024 14:41:59 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/tech/24040701/</guid>
+      <description>软件测试</description>
+    </item>
+    <item>
+      <title>作业3</title>
+      <link>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</link>
+      <pubDate>Sat, 06 Apr 2024 15:33:20 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</guid>
+      <description>软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮</description>
+    </item>
+    <item>
+      <title>忙与盲</title>
+      <link>https://chousinbin.github.io/posts/life/mang-yu-mang/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://chousinbin.github.io/posts/life/mang-yu-mang/</guid>
+      <description>忙与盲</description>
+    </item>
+    <item>
+      <title>上机2</title>
+      <link>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</link>
+      <pubDate>Thu, 28 Mar 2024 15:33:09 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</guid>
+      <description>登录模块用例 手机号字段 数字键盘用例 步骤 预期结果 点击手机号输入框 成功弹出数字键盘，只能输入数字 手机号小于 11 位用例 步骤 预期结果 输入手机号小于 11 位</description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://chousinbin.github.io/posts/tech/git/</link>
+      <pubDate>Thu, 21 Jul 2022 15:33:39 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/tech/git/</guid>
+      <description>git</description>
+    </item>
+    <item>
+      <title>关于</title>
+      <link>https://chousinbin.github.io/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://chousinbin.github.io/about/</guid>
+      <description>下载简历 =&amp;gt; CV.PDF 教育背景 2021 - 2025 大连交通大学 软件工程 专业课首考平均学分绩: 92.40 (2 / 129) Java、数据库、软件工程的课程设计均被评为优 项目经历 2022 - 今, 搭</description>
+    </item>
+  </channel>
+</rss>

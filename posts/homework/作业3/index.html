@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="zh" dir="auto">
+
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>作业3 | Sinbin&#39;s Blog</title>
+<meta name="keywords" content="作业, 软件测试">
+<meta name="description" content="软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮">
+<meta name="author" content="Sinbin">
+<link rel="canonical" href="https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.9c78afd72529c14d4d3c0fa583c3e82265e0d8a303d475223d3b37442260ba22.css" integrity="sha256-nHiv1yUpwU1NPA&#43;lg8PoImXg2KMD1HUiPTs3RCJguiI=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://chousinbin.github.io/icon.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://chousinbin.github.io/icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://chousinbin.github.io/icon.png">
+<link rel="apple-touch-icon" href="https://chousinbin.github.io/icon.png">
+<link rel="mask-icon" href="https://chousinbin.github.io/icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" hreflang="zh" href="https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/">
+<noscript>
+    <style>
+        #theme-toggle,
+        .top-link {
+            display: none;
+        }
+
+    </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-track {
+                background: 0 0;
+            }
+
+            .list:not(.dark)::-webkit-scrollbar-thumb {
+                border-color: var(--theme);
+            }
+        }
+
+    </style>
+</noscript><meta property="og:title" content="作业3" />
+<meta property="og:description" content="软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-04-06T15:33:20+08:00" />
+<meta property="article:modified_time" content="2024-04-06T15:33:20+08:00" />
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="作业3"/>
+<meta name="twitter:description" content="软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position":  1 ,
+      "name": "博客",
+      "item": "https://chousinbin.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "作业",
+      "item": "https://chousinbin.github.io/posts/homework/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "作业3",
+      "item": "https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "headline": "作业3",
+  "name": "作业3",
+  "description": "软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮",
+  "keywords": [
+    "作业", "软件测试"
+  ],
+  "articleBody": " 软工212 - 01 - 周新斌\n1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮不可点击 合法 合法 过期 勾选 提示请重新获取验证码 合法 合法 过期 未勾选 登录按钮不可点击 合法 非法 未过期 勾选 提示账号或验证码错误 合法 非法 未过期 未勾选 登录按钮不可点击 合法 非法 过期 勾选 提示账号或验证码错误 合法 非法 过期 未勾选 登录按钮不可点击 小于 11 位 合法 未过期 勾选 提示手机格式不合法 小于 11 位 合法 未过期 未勾选 登录按钮不可点击 小于 11 位 合法 过期 勾选 提示账号或验证码错误 小于 11 位 合法 过期 未勾选 登录按钮不可点击 小于 11 位 非法 未过期 勾选 提示手机格式不合法 小于 11 位 非法 未过期 未勾选 登录按钮不可点击 小于 11 位 非法 过期 勾选 提示手机格式不合法 小于 11 位 非法 过期 未勾选 登录按钮不可点击 边界值分析法 手机位数 验证码位数 预期结果 10 3 非法 10 4 非法 10 5 非法 11 3 非法 11 4 合法 11 5 非法 12 3 非法 12 4 非法 12 5 非法 2 高级用户注册 条件定义 组成：只能由大写或小写英文字母、数字、点、减号、下划线组成； 长度：6 - 18 位； 开头：字母开头； 结尾：字母或数字结尾。 等价类划分法 用户名组成 用户名长度 开头情况 结尾情况 预期结果 用户名组成合法 长度 6 - 18 字母开头 数字或字母结尾 注册成功 用户名组成合法 长度 6 - 18 字母开头 非数字或字母结尾 注册失败 用户名组成合法 长度 6 - 18 非字母开头 数字或字母结尾 注册失败 用户名组成合法 长度 6 - 18 非字母开头 非数字或字母结尾 注册失败 用户名组成合法 长度非 6 - 18 字母开头 数字或字母结尾 注册失败 用户名组成合法 长度非 6 - 18 字母开头 非数字或字母结尾 注册失败 用户名组成合法 长度非 6 - 18 非字母开头 数字或字母结尾 注册失败 用户名组成合法 长度非 6 - 18 非字母开头 非数字或字母结尾 注册失败 用户名组成不合法 长度 6 - 18 字母开头 数字或字母结尾 注册失败 用户名组成不合法 长度 6 - 18 字母开头 非数字或字母结尾 注册失败 用户名组成不合法 长度 6 - 18 非字母开头 数字或字母结尾 注册失败 用户名组成不合法 长度 6 - 18 非字母开头 非数字或字母结尾 注册失败 用户名组成不合法 长度非 6 - 18 字母开头 数字或字母结尾 注册失败 用户名组成不合法 长度非 6 - 18 字母开头 非数字或字母结尾 注册失败 用户名组成不合法 长度非 6 - 18 非字母开头 数字或字母结尾 注册失败 用户名组成不合法 长度非 6 - 18 非字母开头 非数字或字母结尾 注册失败 边界值分析法 用户名组成 用户名开头 用户名结尾 用户名长度 预期结果 组成合法 开头合法 结尾合法 5 注册失败 组成合法 开头合法 结尾合法 6 注册成功 组成合法 开头合法 结尾合法 7 注册成功 组成合法 开头合法 结尾合法 17 注册成功 组成合法 开头合法 结尾合法 18 注册成功 组成合法 开头合法 结尾合法 19 注册失败 3 机票定价系统 判定表法 乘客国别 舱位类型 行李重量 是否需要付费 付费金额 国内乘客 头等舱 \u003c= 30 KG 否 0 国内乘客 头等舱 \u003e 30 KG 是 4 元 / KG 国内乘客 其他舱 \u003c= 30 KG 否 0 国内乘客 其他舱 \u003e 30 KG 是 6 元 / KG 外国乘客 头等舱 \u003c= 30 KG 否 0 外国乘客 头等舱 \u003e 30 KG 是 8 元 / KG 外国乘客 其他舱 \u003c= 30 KG 否 外国乘客 其他舱 \u003e 30 KG 是 12 元 / KG 残疾乘客 头等舱 \u003c= 30 KG 否 0 残疾乘客 头等舱 \u003e 30 KG 是 2 元 / KG 残疾乘客 其他舱 \u003c= 30 KG 否 0 残疾乘客 其他舱 \u003e 30 KG 是 3 元 / KG ",
+  "wordCount" : "1279",
+  "inLanguage": "zh",
+  "datePublished": "2024-04-06T15:33:20+08:00",
+  "dateModified": "2024-04-06T15:33:20+08:00",
+  "author":{
+    "@type": "Person",
+    "name": "Sinbin"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Sinbin's Blog",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://chousinbin.github.io/icon.png"
+    }
+  }
+}
+</script>
+</head>
+
+<body class="" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://chousinbin.github.io/" accesskey="h" title="Sinbin&#39;s Blog (Alt + H)">
+                <img src="https://chousinbin.github.io/icon.png" alt="" aria-label="logo"
+                    height="35">Sinbin&#39;s Blog</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://chousinbin.github.io/" title="主页">
+                    <span>主页</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chousinbin.github.io/posts" title="博客">
+                    <span>博客</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chousinbin.github.io/archives" title="归档">
+                    <span>归档</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chousinbin.github.io/tags" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chousinbin.github.io/search" title="搜索 (Alt &#43; /)" accesskey=/>
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://chousinbin.github.io/about" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+
+
+<script async src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<main class="main">
+
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="https://chousinbin.github.io/">主页</a>&nbsp;»&nbsp;<a href="https://chousinbin.github.io/posts/">博客</a>&nbsp;»&nbsp;<a href="https://chousinbin.github.io/posts/homework/">作业</a></div>
+    <h1 class="post-title entry-hint-parent">
+      作业3
+    </h1>
+    <div class="post-meta"><span title='2024-04-06 15:33:20 +0800 CST'>2024-04-06</span>&nbsp;·&nbsp;3 分钟&nbsp;·&nbsp;1279 字&nbsp;·&nbsp;Sinbin
+
+</div>
+  </header> <aside id="toc-container" class="toc-container wide">
+    <div class="toc">
+        <details  open>
+            <summary accesskey="c" title="(Alt + C)">
+                <span class="details">目录</span>
+            </summary>
+
+            <div class="inner"><ul>
+                    <li>
+                        <a href="#1-%e5%ae%8c%e5%96%84%e7%99%bb%e5%bd%95%e6%a8%a1%e5%9d%97" aria-label="1 完善登录模块">1 完善登录模块</a><ul>
+                            
+                    <li>
+                        <a href="#%e7%ad%89%e4%bb%b7%e7%b1%bb%e5%88%92%e5%88%86%e6%b3%95" aria-label="等价类划分法">等价类划分法</a></li>
+                    <li>
+                        <a href="#%e8%be%b9%e7%95%8c%e5%80%bc%e5%88%86%e6%9e%90%e6%b3%95" aria-label="边界值分析法">边界值分析法</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#2-%e9%ab%98%e7%ba%a7%e7%94%a8%e6%88%b7%e6%b3%a8%e5%86%8c" aria-label="2 高级用户注册">2 高级用户注册</a><ul>
+                            
+                    <li>
+                        <a href="#%e6%9d%a1%e4%bb%b6%e5%ae%9a%e4%b9%89" aria-label="条件定义">条件定义</a></li>
+                    <li>
+                        <a href="#%e7%ad%89%e4%bb%b7%e7%b1%bb%e5%88%92%e5%88%86%e6%b3%95-1" aria-label="等价类划分法">等价类划分法</a></li>
+                    <li>
+                        <a href="#%e8%be%b9%e7%95%8c%e5%80%bc%e5%88%86%e6%9e%90%e6%b3%95-1" aria-label="边界值分析法">边界值分析法</a></li></ul>
+                    </li>
+                    <li>
+                        <a href="#3-%e6%9c%ba%e7%a5%a8%e5%ae%9a%e4%bb%b7%e7%b3%bb%e7%bb%9f" aria-label="3 机票定价系统">3 机票定价系统</a><ul>
+                            
+                    <li>
+                        <a href="#%e5%88%a4%e5%ae%9a%e8%a1%a8%e6%b3%95" aria-label="判定表法">判定表法</a>
+                    </li>
+                </ul>
+                </li>
+                </ul>
+            </div>
+        </details>
+    </div>
+</aside>
+<script>
+    let activeElement;
+    let elements;
+    window.addEventListener('DOMContentLoaded', function (event) {
+        checkTocPosition();
+
+        elements = document.querySelectorAll('h1[id],h2[id],h3[id],h4[id],h5[id],h6[id]');
+         
+         activeElement = elements[0];
+         const id = encodeURI(activeElement.getAttribute('id')).toLowerCase();
+         document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+     }, false);
+
+    window.addEventListener('resize', function(event) {
+        checkTocPosition();
+    }, false);
+
+    window.addEventListener('scroll', () => {
+        
+        activeElement = Array.from(elements).find((element) => {
+            if ((getOffsetTop(element) - window.pageYOffset) > 0 && 
+                (getOffsetTop(element) - window.pageYOffset) < window.innerHeight/2) {
+                return element;
+            }
+        }) || activeElement
+
+        elements.forEach(element => {
+             const id = encodeURI(element.getAttribute('id')).toLowerCase();
+             if (element === activeElement){
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.add('active');
+             } else {
+                 document.querySelector(`.inner ul li a[href="#${id}"]`).classList.remove('active');
+             }
+         })
+     }, false);
+
+    const main = parseInt(getComputedStyle(document.body).getPropertyValue('--article-width'), 10);
+    const toc = parseInt(getComputedStyle(document.body).getPropertyValue('--toc-width'), 10);
+    const gap = parseInt(getComputedStyle(document.body).getPropertyValue('--gap'), 10);
+
+    function checkTocPosition() {
+        const width = document.body.scrollWidth;
+
+        if (width - main - (toc * 2) - (gap * 4) > 0) {
+            document.getElementById("toc-container").classList.add("wide");
+        } else {
+            document.getElementById("toc-container").classList.remove("wide");
+        }
+    }
+
+    function getOffsetTop(element) {
+        if (!element.getClientRects().length) {
+            return 0;
+        }
+        let rect = element.getBoundingClientRect();
+        let win = element.ownerDocument.defaultView;
+        return rect.top + win.pageYOffset;   
+    }
+</script>
+  <div class="post-content"><blockquote>
+<p>软工212 - 01 - 周新斌</p>
+</blockquote>
+<h2 id="1-完善登录模块">1 完善登录模块<a hidden class="anchor" aria-hidden="true" href="#1-完善登录模块">#</a></h2>
+<h3 id="等价类划分法">等价类划分法<a hidden class="anchor" aria-hidden="true" href="#等价类划分法">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>手机号</th>
+<th>验证码</th>
+<th>过期</th>
+<th>协议</th>
+<th>预期结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>合法</td>
+<td>合法</td>
+<td>未过期</td>
+<td>勾选</td>
+<td>登陆成功，进入主页</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>合法</td>
+<td>未过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>合法</td>
+<td>过期</td>
+<td>勾选</td>
+<td>提示请重新获取验证码</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>合法</td>
+<td>过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>非法</td>
+<td>未过期</td>
+<td>勾选</td>
+<td>提示账号或验证码错误</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>非法</td>
+<td>未过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>非法</td>
+<td>过期</td>
+<td>勾选</td>
+<td>提示账号或验证码错误</td>
+</tr>
+<tr>
+<td>合法</td>
+<td>非法</td>
+<td>过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>合法</td>
+<td>未过期</td>
+<td>勾选</td>
+<td>提示手机格式不合法</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>合法</td>
+<td>未过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>合法</td>
+<td>过期</td>
+<td>勾选</td>
+<td>提示账号或验证码错误</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>合法</td>
+<td>过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>非法</td>
+<td>未过期</td>
+<td>勾选</td>
+<td>提示手机格式不合法</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>非法</td>
+<td>未过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>非法</td>
+<td>过期</td>
+<td>勾选</td>
+<td>提示手机格式不合法</td>
+</tr>
+<tr>
+<td>小于 11 位</td>
+<td>非法</td>
+<td>过期</td>
+<td>未勾选</td>
+<td>登录按钮不可点击</td>
+</tr>
+</tbody>
+</table>
+<h3 id="边界值分析法">边界值分析法<a hidden class="anchor" aria-hidden="true" href="#边界值分析法">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>手机位数</th>
+<th>验证码位数</th>
+<th>预期结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10</td>
+<td>3</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>10</td>
+<td>4</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>10</td>
+<td>5</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>11</td>
+<td>3</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>11</td>
+<td>4</td>
+<td>合法</td>
+</tr>
+<tr>
+<td>11</td>
+<td>5</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>12</td>
+<td>3</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>12</td>
+<td>4</td>
+<td>非法</td>
+</tr>
+<tr>
+<td>12</td>
+<td>5</td>
+<td>非法</td>
+</tr>
+</tbody>
+</table>
+<h2 id="2-高级用户注册">2 高级用户注册<a hidden class="anchor" aria-hidden="true" href="#2-高级用户注册">#</a></h2>
+<h3 id="条件定义">条件定义<a hidden class="anchor" aria-hidden="true" href="#条件定义">#</a></h3>
+<ul>
+<li>组成：只能由大写或小写英文字母、数字、点、减号、下划线组成；</li>
+<li>长度：6 - 18 位；</li>
+<li>开头：字母开头；</li>
+<li>结尾：字母或数字结尾。</li>
+</ul>
+<h3 id="等价类划分法-1">等价类划分法<a hidden class="anchor" aria-hidden="true" href="#等价类划分法-1">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>用户名组成</th>
+<th>用户名长度</th>
+<th>开头情况</th>
+<th>结尾情况</th>
+<th>预期结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>用户名组成合法</td>
+<td>长度 6 - 18</td>
+<td>字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册成功</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度 6 - 18</td>
+<td>字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度 6 - 18</td>
+<td>非字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度 6 - 18</td>
+<td>非字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度非 6 - 18</td>
+<td>字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度非 6 - 18</td>
+<td>字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度非 6 - 18</td>
+<td>非字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成合法</td>
+<td>长度非 6 - 18</td>
+<td>非字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度 6 - 18</td>
+<td>字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度 6 - 18</td>
+<td>字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度 6 - 18</td>
+<td>非字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度 6 - 18</td>
+<td>非字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度非 6 - 18</td>
+<td>字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度非 6 - 18</td>
+<td>字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度非 6 - 18</td>
+<td>非字母开头</td>
+<td>数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>用户名组成不合法</td>
+<td>长度非 6 - 18</td>
+<td>非字母开头</td>
+<td>非数字或字母结尾</td>
+<td>注册失败</td>
+</tr>
+</tbody>
+</table>
+<h3 id="边界值分析法-1">边界值分析法<a hidden class="anchor" aria-hidden="true" href="#边界值分析法-1">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>用户名组成</th>
+<th>用户名开头</th>
+<th>用户名结尾</th>
+<th>用户名长度</th>
+<th>预期结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>5</td>
+<td>注册失败</td>
+</tr>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>6</td>
+<td>注册成功</td>
+</tr>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>7</td>
+<td>注册成功</td>
+</tr>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>17</td>
+<td>注册成功</td>
+</tr>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>18</td>
+<td>注册成功</td>
+</tr>
+<tr>
+<td>组成合法</td>
+<td>开头合法</td>
+<td>结尾合法</td>
+<td>19</td>
+<td>注册失败</td>
+</tr>
+</tbody>
+</table>
+<h2 id="3-机票定价系统">3 机票定价系统<a hidden class="anchor" aria-hidden="true" href="#3-机票定价系统">#</a></h2>
+<h3 id="判定表法">判定表法<a hidden class="anchor" aria-hidden="true" href="#判定表法">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>乘客国别</th>
+<th>舱位类型</th>
+<th>行李重量</th>
+<th>是否需要付费</th>
+<th>付费金额</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>国内乘客</td>
+<td>头等舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td>0</td>
+</tr>
+<tr>
+<td>国内乘客</td>
+<td>头等舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>4 元 / KG</td>
+</tr>
+<tr>
+<td>国内乘客</td>
+<td>其他舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td>0</td>
+</tr>
+<tr>
+<td>国内乘客</td>
+<td>其他舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>6 元 / KG</td>
+</tr>
+<tr>
+<td>外国乘客</td>
+<td>头等舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td>0</td>
+</tr>
+<tr>
+<td>外国乘客</td>
+<td>头等舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>8 元 / KG</td>
+</tr>
+<tr>
+<td>外国乘客</td>
+<td>其他舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td></td>
+</tr>
+<tr>
+<td>外国乘客</td>
+<td>其他舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>12 元 / KG</td>
+</tr>
+<tr>
+<td>残疾乘客</td>
+<td>头等舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td>0</td>
+</tr>
+<tr>
+<td>残疾乘客</td>
+<td>头等舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>2 元 / KG</td>
+</tr>
+<tr>
+<td>残疾乘客</td>
+<td>其他舱</td>
+<td>&lt;= 30 KG</td>
+<td>否</td>
+<td>0</td>
+</tr>
+<tr>
+<td>残疾乘客</td>
+<td>其他舱</td>
+<td>&gt; 30 KG</td>
+<td>是</td>
+<td>3 元 / KG</td>
+</tr>
+</tbody>
+</table>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="https://chousinbin.github.io/tags/%E4%BD%9C%E4%B8%9A/">作业</a></li>
+      <li><a href="https://chousinbin.github.io/tags/%E8%BD%AF%E4%BB%B6%E6%B5%8B%E8%AF%95/">软件测试</a></li>
+    </ul>
+<nav class="paginav">
+  <a class="prev" href="https://chousinbin.github.io/posts/tech/24040701/">
+    <span class="title">« 上一页</span>
+    <br>
+    <span>软件测试</span>
+  </a>
+  <a class="next" href="https://chousinbin.github.io/posts/life/mang-yu-mang/">
+    <span class="title">下一页 »</span>
+    <br>
+    <span>忙与盲</span>
+  </a>
+</nav>
+
+  </footer>
+</article>
+    </main>
+    
+<footer class="footer">
+        <span>&copy; 2024 <a href="https://chousinbin.github.io/">Sinbin&#39;s Blog</a></span> · 
+
+    
+
+    <span>
+        Powered by
+        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = '复制';
+
+        function copyingDone() {
+            copybutton.innerHTML = '已复制！';
+            setTimeout(() => {
+                copybutton.innerHTML = '复制';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
+</script>
+
+
+</body>
+
+</html>

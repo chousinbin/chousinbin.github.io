@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>作业 on Sinbin&#39;s Blog</title>
+    <link>https://chousinbin.github.io/posts/homework/</link>
+    <description>Recent content in 作业 on Sinbin&#39;s Blog</description>
+    <generator>Hugo -- 0.124.1</generator>
+    <language>zh</language>
+    <lastBuildDate>Sat, 06 Apr 2024 15:33:20 +0800</lastBuildDate>
+    <atom:link href="https://chousinbin.github.io/posts/homework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>作业3</title>
+      <link>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</link>
+      <pubDate>Sat, 06 Apr 2024 15:33:20 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</guid>
+      <description>软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮</description>
+    </item>
+    <item>
+      <title>上机2</title>
+      <link>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</link>
+      <pubDate>Thu, 28 Mar 2024 15:33:09 +0800</pubDate>
+      <guid>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</guid>
+      <description>登录模块用例 手机号字段 数字键盘用例 步骤 预期结果 点击手机号输入框 成功弹出数字键盘，只能输入数字 手机号小于 11 位用例 步骤 预期结果 输入手机号小于 11 位</description>
+    </item>
+  </channel>
+</rss>
