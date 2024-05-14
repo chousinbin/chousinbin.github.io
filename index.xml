@@ -10,9 +10,9 @@
     <atom:link href="https://chousinbin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>软件测试</title>
-      <link>https://chousinbin.github.io/posts/tech/24040701/</link>
+      <link>https://chousinbin.github.io/posts/24040701.html/</link>
       <pubDate>Sun, 07 Apr 2024 14:41:59 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/tech/24040701/</guid>
+      <guid>https://chousinbin.github.io/posts/24040701.html/</guid>
       <description>软件测试</description>
     </item>
     <item>
@@ -41,14 +41,14 @@
       <link>https://chousinbin.github.io/posts/tech/git/</link>
       <pubDate>Thu, 21 Jul 2022 15:33:39 +0800</pubDate>
       <guid>https://chousinbin.github.io/posts/tech/git/</guid>
-      <description>git</description>
+      <description>Git</description>
     </item>
     <item>
       <title>关于</title>
       <link>https://chousinbin.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://chousinbin.github.io/about/</guid>
-      <description>下载简历 =&amp;gt; CV.PDF 教育背景 2021 - 2025 大连交通大学 软件工程 专业课首考平均学分绩: 92.40 (2 / 129) Java、数据库、软件工程的课程设计均被评为优 项目经历 2022 - 今, 搭</description>
+      <description>下载简历 =&amp;gt; CV.PDF 教育背景 2021 - 2025 大连交通大学 软件工程 必修课平均学分绩: 92.40 排名: 2/129 (前 2%) CET-6: 426 主修课程：数据结构 (99) 计算机网络 (97) 高等数学 (98) 线性代数 (93) 数据</description>
     </item>
   </channel>
 </rss>
