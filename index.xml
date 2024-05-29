@@ -6,35 +6,14 @@
     <description>Recent content on Sinbin&#39;s Blog</description>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
-    <lastBuildDate>Tue, 28 May 2024 22:18:21 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 Mar 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://chousinbin.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>软件测试</title>
-      <link>https://chousinbin.github.io/posts/24040701.html/</link>
-      <pubDate>Sun, 07 Apr 2024 14:41:59 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/24040701.html/</guid>
-      <description>软件测试笔记</description>
-    </item>
-    <item>
-      <title>作业3</title>
-      <link>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</link>
-      <pubDate>Sat, 06 Apr 2024 15:33:20 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/homework/%E4%BD%9C%E4%B8%9A3/</guid>
-      <description>软工212 - 01 - 周新斌 1 完善登录模块 等价类划分法 手机号 验证码 过期 协议 预期结果 合法 合法 未过期 勾选 登陆成功，进入主页 合法 合法 未过期 未勾选 登录按钮</description>
-    </item>
-    <item>
       <title>忙与盲</title>
-      <link>https://chousinbin.github.io/posts/life/mang-yu-mang/</link>
+      <link>https://chousinbin.github.io/posts/life/240331/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://chousinbin.github.io/posts/life/mang-yu-mang/</guid>
+      <guid>https://chousinbin.github.io/posts/life/240331/</guid>
       <description>忙与盲</description>
-    </item>
-    <item>
-      <title>上机2</title>
-      <link>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</link>
-      <pubDate>Thu, 28 Mar 2024 15:33:09 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/homework/%E4%B8%8A%E6%9C%BA2/</guid>
-      <description>登录模块用例 手机号字段 数字键盘用例 步骤 预期结果 点击手机号输入框 成功弹出数字键盘，只能输入数字 手机号小于 11 位用例 步骤 预期结果 输入手机号小于 11 位</description>
     </item>
     <item>
       <title>Git</title>
@@ -44,11 +23,18 @@
       <description>Git</description>
     </item>
     <item>
+      <title>深夜的一声汽笛</title>
+      <link>https://chousinbin.github.io/posts/life/220608/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://chousinbin.github.io/posts/life/220608/</guid>
+      <description>深夜的一声汽笛唤起了我的乡愁</description>
+    </item>
+    <item>
       <title>关于</title>
       <link>https://chousinbin.github.io/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://chousinbin.github.io/about/</guid>
-      <description>下载简历 =&amp;gt; CV.PDF 教育背景 2021 - 2025 大连交通大学 软件工程 必修课平均学分绩: 92.42 排名: 2/129 (前 2%) 已通过 CET-6 主修课程：数据结构 (99) 计算机网络 (97) 高等数学 (98) 线性代数 (93)</description>
+      <description>教育背景 2021 - 2025 大连交通大学 必修课平均学分绩: 92.42 排名: 2/129 (前 2%) 已通过 CET-6 主修课程：数据结构 (99) 计算机网络 (97) 高等数学 (98) 线性代数 (93) 软件工程 (96) 荣誉奖项 2022</description>
     </item>
   </channel>
 </rss>
