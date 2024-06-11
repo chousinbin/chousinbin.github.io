@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/tech/</loc>
+    <loc>https://xinb.in/posts/tech/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/life/</loc>
+    <loc>https://xinb.in/posts/life/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/temp/</loc>
+    <loc>https://xinb.in/posts/temp/</loc>
   </url><url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://xinb.in/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://xinb.in/tags/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://xinb.in/posts/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/240601/</loc>
+    <loc>https://xinb.in/posts/240601/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>https://xinb.in/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/240331/</loc>
+    <loc>https://xinb.in/posts/240331/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/git/</loc>
+    <loc>https://xinb.in/tags/git/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/git/</loc>
+    <loc>https://xinb.in/posts/git/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/github/</loc>
+    <loc>https://xinb.in/tags/github/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/220608/</loc>
+    <loc>https://xinb.in/posts/220608/</loc>
     <lastmod>2022-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://xinb.in/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/series/</loc>
+    <loc>https://xinb.in/series/</loc>
   </url><url>
-    <loc>http://localhost:1313/archives/</loc>
+    <loc>https://xinb.in/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/about/</loc>
+    <loc>https://xinb.in/about/</loc>
   </url><url>
-    <loc>http://localhost:1313/search/</loc>
+    <loc>https://xinb.in/search/</loc>
   </url>
 </urlset>
