@@ -2,50 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://chousinbin.github.io/posts/tech/</loc>
+    <loc>http://localhost:1313/posts/tech/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/life/</loc>
+    <loc>http://localhost:1313/posts/life/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/temp/</loc>
+    <loc>http://localhost:1313/posts/temp/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/240601/</loc>
+    <loc>http://localhost:1313/posts/240601/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/tags/%E6%97%A5%E8%AE%B0/</loc>
+    <loc>http://localhost:1313/tags/%E6%97%A5%E8%AE%B0/</loc>
     <lastmod>2024-06-01T14:46:47+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/240331/</loc>
+    <loc>http://localhost:1313/posts/240331/</loc>
     <lastmod>2024-03-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/tags/git/</loc>
+    <loc>http://localhost:1313/tags/git/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/git/</loc>
+    <loc>http://localhost:1313/posts/git/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/tags/github/</loc>
+    <loc>http://localhost:1313/tags/github/</loc>
     <lastmod>2022-07-21T15:33:39+08:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/posts/220608/</loc>
+    <loc>http://localhost:1313/posts/220608/</loc>
     <lastmod>2022-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://chousinbin.github.io/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/archives/</loc>
+    <loc>http://localhost:1313/archives/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/about/</loc>
+    <loc>http://localhost:1313/about/</loc>
   </url><url>
-    <loc>https://chousinbin.github.io/search/</loc>
+    <loc>http://localhost:1313/search/</loc>
   </url>
 </urlset>

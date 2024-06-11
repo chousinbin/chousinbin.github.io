@@ -2,45 +2,45 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Xinbin&#39;s Blog</title>
-    <link>https://chousinbin.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Xinbin&#39;s Blog</description>
     <generator>Hugo -- 0.124.1</generator>
     <language>zh</language>
     <lastBuildDate>Sat, 01 Jun 2024 14:46:47 +0800</lastBuildDate>
-    <atom:link href="https://chousinbin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>蓝桥杯国赛在 NEU</title>
-      <link>https://chousinbin.github.io/posts/240601/</link>
+      <link>http://localhost:1313/posts/240601/</link>
       <pubDate>Sat, 01 Jun 2024 14:46:47 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/240601/</guid>
+      <guid>http://localhost:1313/posts/240601/</guid>
       <description>蓝桥杯国赛</description>
     </item>
     <item>
       <title>忙与盲</title>
-      <link>https://chousinbin.github.io/posts/240331/</link>
+      <link>http://localhost:1313/posts/240331/</link>
       <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>https://chousinbin.github.io/posts/240331/</guid>
+      <guid>http://localhost:1313/posts/240331/</guid>
       <description>忙与盲</description>
     </item>
     <item>
       <title>Git</title>
-      <link>https://chousinbin.github.io/posts/git/</link>
+      <link>http://localhost:1313/posts/git/</link>
       <pubDate>Thu, 21 Jul 2022 15:33:39 +0800</pubDate>
-      <guid>https://chousinbin.github.io/posts/git/</guid>
+      <guid>http://localhost:1313/posts/git/</guid>
       <description>Git</description>
     </item>
     <item>
       <title>深夜的一声汽笛</title>
-      <link>https://chousinbin.github.io/posts/220608/</link>
+      <link>http://localhost:1313/posts/220608/</link>
       <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
-      <guid>https://chousinbin.github.io/posts/220608/</guid>
+      <guid>http://localhost:1313/posts/220608/</guid>
       <description>深夜的一声汽笛唤起了我的乡愁</description>
     </item>
     <item>
       <title>关于</title>
-      <link>https://chousinbin.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://chousinbin.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>教育背景 2021 - 2025 大连交通大学 必修课平均学分绩: 92.42 排名: 2/129 (前 2%) 已通过 CET-6 主修课程：数据结构 (99) 计算机网络 (97) 高等数学 (98) 线性代数 (93) 软件工程 (96) 荣誉奖项 2022</description>
     </item>
   </channel>
