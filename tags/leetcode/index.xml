@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>LeetCode on Xinbin&#39;s Blog</title>
-    <link>http://localhost:1313/tags/leetcode/</link>
+    <link>https://xinb.in/tags/leetcode/</link>
     <description>Recent content in LeetCode on Xinbin&#39;s Blog</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 14 Jul 2024 00:40:08 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 26 Jun 2024 21:40:08 +0800</lastBuildDate>
+    <atom:link href="https://xinb.in/tags/leetcode/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>LeetCode75</title>
-      <link>http://localhost:1313/posts/leetcode75/</link>
+      <title>LeetCode 75</title>
+      <link>https://xinb.in/posts/2024-06-26-leetcode75/</link>
       <pubDate>Wed, 26 Jun 2024 20:59:29 +0800</pubDate>
-      <guid>http://localhost:1313/posts/leetcode75/</guid>
+      <guid>https://xinb.in/posts/2024-06-26-leetcode75/</guid>
       <description>LeetCode 75 题解</description>
     </item>
   </channel>

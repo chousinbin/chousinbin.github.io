@@ -12,10 +12,10 @@
 <link rel="canonical" href="https://xinb.in/about/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.9c78afd72529c14d4d3c0fa583c3e82265e0d8a303d475223d3b37442260ba22.css" integrity="sha256-nHiv1yUpwU1NPA&#43;lg8PoImXg2KMD1HUiPTs3RCJguiI=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://xinb.in/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="https://xinb.in/favicon.ico">
-<link rel="icon" type="image/png" sizes="32x32" href="https://xinb.in/favicon.ico">
-<link rel="apple-touch-icon" href="https://xinb.in/favicon.ico">
-<link rel="mask-icon" href="https://xinb.in/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://xinb.in/16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://xinb.in/32x32.png">
+<link rel="apple-touch-icon" href="https://xinb.in/512x512.png">
+<link rel="mask-icon" href="https://xinb.in/512x512.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" hreflang="en" href="https://xinb.in/about/">
@@ -286,12 +286,12 @@
 
         const copybutton = document.createElement('button');
         copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
+        copybutton.innerHTML = 'Copy';
 
         function copyingDone() {
-            copybutton.innerHTML = 'copied!';
+            copybutton.innerHTML = 'Copied!';
             setTimeout(() => {
-                copybutton.innerHTML = 'copy';
+                copybutton.innerHTML = 'Copy';
             }, 2000);
         }
 
