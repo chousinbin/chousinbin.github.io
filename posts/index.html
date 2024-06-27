@@ -56,7 +56,43 @@
         }
 
     </style>
-</noscript>
+</noscript><script type="text/javascript"
+        async
+        src="https://cdn.bootcss.com/mathjax/2.7.3/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+MathJax.Hub.Config({
+  tex2jax: {
+    inlineMath: [['$','$'], ['\\(','\\)']],
+    displayMath: [['$$','$$'], ['\[\[','\]\]']],
+    processEscapes: true,
+    processEnvironments: true,
+    skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+    TeX: { equationNumbers: { autoNumber: "AMS" },
+         extensions: ["AMSmath.js", "AMSsymbols.js"] }
+  }
+});
+
+MathJax.Hub.Queue(function() {
+    
+    
+    
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+
+<style>
+code.has-jax {
+    font: inherit;
+    font-size: 100%;
+    background: inherit;
+    border: inherit;
+    color: #515151;
+}
+</style>
+
+
   
 
 <meta property="og:title" content="博客" />
@@ -159,8 +195,8 @@
   <div class="entry-content">
     <p>LeetCode 75 题解</p>
   </div>
-  <footer class="entry-footer"><span title='2024-06-26 20:59:29 +0800 CST'>Create on 2024-06-26</span>&nbsp;·&nbsp;<span title='2024-06-26 21:40:08 +0800 CST'>Update on 2024-06-26</span>&nbsp;·&nbsp;2 Min&nbsp;·&nbsp;722 Words</footer>
-  <a class="entry-link" aria-label="post link to LeetCode 75" href="https://xinb.in/posts/2024-06-26-leetcode75/"></a>
+  <footer class="entry-footer"><span title='2024-06-26 20:59:29 +0800 CST'>Create on 2024-06-26</span>&nbsp;·&nbsp;<span title='2024-06-26 21:40:08 +0800 CST'>Update on 2024-06-26</span>&nbsp;·&nbsp;2 Min&nbsp;·&nbsp;707 Words</footer>
+  <a class="entry-link" aria-label="post link to LeetCode 75" href="https://xinb.in/posts/leetcode-75/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -195,7 +231,7 @@
   <div class="entry-content">
     <p>Git</p>
   </div>
-  <footer class="entry-footer"><span title='2022-07-21 15:33:39 +0800 CST'>Create on 2022-07-21</span>&nbsp;·&nbsp;12 Min&nbsp;·&nbsp;5804 Words</footer>
+  <footer class="entry-footer"><span title='2022-07-21 15:33:39 +0800 CST'>Create on 2022-07-21</span>&nbsp;·&nbsp;12 Min&nbsp;·&nbsp;5765 Words</footer>
   <a class="entry-link" aria-label="post link to Git" href="https://xinb.in/posts/git/"></a>
 </article>
 
