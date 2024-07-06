@@ -6,8 +6,22 @@
     <description>Recent content in 标签 on Xinbin</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2024 22:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 20:27:57 +0800</lastBuildDate>
     <atom:link href="https://xinb.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GitHub</title>
+      <link>https://xinb.in/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/github/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://xinb.in/tags/hugo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/hugo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>虚拟机</title>
       <link>https://xinb.in/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
@@ -55,13 +69,6 @@
       <link>https://xinb.in/tags/git/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://xinb.in/tags/git/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>GitHub</title>
-      <link>https://xinb.in/tags/github/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://xinb.in/tags/github/</guid>
       <description></description>
     </item>
   </channel>

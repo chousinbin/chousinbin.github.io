@@ -6,13 +6,20 @@
     <description>Recent content on Xinbin</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jul 2024 22:13:19 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 06 Jul 2024 20:27:57 +0800</lastBuildDate>
     <atom:link href="https://xinb.in/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>GitHub Actions 自动部署 Hugo 博客</title>
+      <link>https://xinb.in/posts/240706/</link>
+      <pubDate>Sat, 06 Jul 2024 20:27:57 +0800</pubDate>
+      <guid>https://xinb.in/posts/240706/</guid>
+      <description>Hugo 生成的静态资源在 /public/* 下，为了方便部署，可以在 GitHub 创建两个仓库。 一个名为 HugoBlog 存储 Hugo 整体资源，另一个名为 chousinbin.github.io 存储 /public/* 文件，发布网站。 为了方便两个仓库的同</description>
+    </item>
+    <item>
       <title>VMware个人免费授权</title>
-      <link>https://xinb.in/posts/2024-07-02-vmware%E4%B8%AA%E4%BA%BA%E6%8E%88%E6%9D%83/</link>
+      <link>https://xinb.in/posts/240702/</link>
       <pubDate>Tue, 02 Jul 2024 22:13:19 +0800</pubDate>
-      <guid>https://xinb.in/posts/2024-07-02-vmware%E4%B8%AA%E4%BA%BA%E6%8E%88%E6%9D%83/</guid>
+      <guid>https://xinb.in/posts/240702/</guid>
       <description>vmware</description>
     </item>
     <item>

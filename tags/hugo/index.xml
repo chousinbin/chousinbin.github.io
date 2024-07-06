@@ -1,26 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>GitHub on Xinbin</title>
-    <link>https://xinb.in/tags/github/</link>
-    <description>Recent content in GitHub on Xinbin</description>
+    <title>Hugo on Xinbin</title>
+    <link>https://xinb.in/tags/hugo/</link>
+    <description>Recent content in Hugo on Xinbin</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
     <lastBuildDate>Sat, 06 Jul 2024 20:27:57 +0800</lastBuildDate>
-    <atom:link href="https://xinb.in/tags/github/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://xinb.in/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Actions 自动部署 Hugo 博客</title>
       <link>https://xinb.in/posts/240706/</link>
       <pubDate>Sat, 06 Jul 2024 20:27:57 +0800</pubDate>
       <guid>https://xinb.in/posts/240706/</guid>
       <description>Hugo 生成的静态资源在 /public/* 下，为了方便部署，可以在 GitHub 创建两个仓库。 一个名为 HugoBlog 存储 Hugo 整体资源，另一个名为 chousinbin.github.io 存储 /public/* 文件，发布网站。 为了方便两个仓库的同</description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://xinb.in/posts/git/</link>
-      <pubDate>Thu, 21 Jul 2022 15:33:39 +0800</pubDate>
-      <guid>https://xinb.in/posts/git/</guid>
-      <description>Git</description>
     </item>
   </channel>
 </rss>
