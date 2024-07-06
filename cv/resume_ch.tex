@@ -1,0 +1,139 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage{xeCJK}  
+\usepackage{color}
+\usepackage[citecolor=green]{hyperref}
+\usepackage{graphicx} % 用于插入图片
+
+\name{Sinbin Zhou} % Your name
+\address{chousinbin@gmail.com}
+\begin{document}
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{教育背景}
+%\textbf{大连交通大学}\hfill{软件工程专业（本科）}\hfill{2021.09 - 2025.07}
+\begin{rSubsection}{大连交通大学}{\em2021.09 - 2025.07}{软件工程专业}{辽宁大连}
+\item 平均学分绩: 92.00 \ \ 必修课平均学分绩: 92.42 \ \ 排名: 2/129 (前 2\%)
+\item 英语水平：2023年6月CET4 (449)\ \ \ \ 2023年12月CET6 (426)\ \ \ \ 均为首次
+\item 主修课程：数据结构(99) 数据库原理与应用(98) 软件工程(96) 计算机网络(97) 高等数学(98) 线性代数(93) 
+\end{rSubsection}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	HONORS / AWARDS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{荣誉奖项}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+第十三届蓝桥杯算法竞赛C/C++赛道省赛一等奖 & {\em 2022.04} \\
+第十五届蓝桥杯算法竞赛C/C++赛道省赛一等奖 & {\em 2024.04} \\
+第三届辽宁省大学生程序设计竞赛铜奖 & {\em 2022.12} \\
+校一等优秀学生综合奖学金(排名：1/129) & {\em 2023.12} \\
+校三好学生 & {\em 2023.12} \\
+校级创赛奖项若干（主持）\\
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS / RESEARCH EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{项目经历}
+
+\begin{rSubsection}{进程调度和页面置换算法的实现}{\em 2023.05 - 2023.06}
+{用 C++ 分别模拟实现了几种常见的进程调度算法和页面置换算法，总共约 800 LOC\\}
+{代码地址: \rm \url{https://github.com/chousinbin/OS-Lab}}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 进程调度: 先来先服务, 最短剩余优先, 时间片轮转, 优先级
+\item[-] 页面置换：先入先出, 最近最少使用, 二次交换
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{个人博客的搭建与部署}{\em 2022.07 - 2022.08}
+{使用Hugo博客框架和开源主题，在GitPages上成功搭建了个人博客网站，并配备了独立域名\\}
+{博客地址: \rm \url{https://xinb.in}}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 配备了独立域名，计算机网络上的有关知识得到了实践，比如CDN、DNS、IP等知识
+\item[-] 通过在Linux环境下调试、管理项目，对Linux命令以及Git相关操作得到了锻炼
+\item[-] 通过阅读官方文档，成功在Linux上调试，并且远程部署，能够正常发布博客文章
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}{个人电子笔记仓库的维护}{\em 2022.09 - 今}
+{大学以来坚持使用 MarkDown 书写电子学习笔记，涉及开发技术、算法竞赛、本科课程等方面\\}
+{仓库地址: \rm \url{https://github.com/chousinbin/Notes}}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 用 \LaTeX{} 书写数学公式
+\item[-] 用 Git 对笔记进行版本控制，笔记托管在 GitHub 上,该仓库 Commit 次数已达 160 余次
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{个人技能}
+\begin{rSubsection}
+{编程能力}{}{}{}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 了解Linux常用命令，有 Linux 环境下对项目进行开发与调试经历
+\item[-] 熟悉 C/C++ 和 Java 语言的基本语法，独自开发过2000 LOC 的图形界面程序
+\item[-] 熟悉 Git/GitHub，能对项目进行版本控制, 包括创建远程仓库、代码提交、分支管理、版本回退等操作
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}
+{文档能力}{}{}{}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 熟悉MarkDown文档写作，了解\LaTeX{}排版
+\end{itemize}
+\end{rSubsection}
+
+\begin{rSubsection}
+{兴趣爱好}{}{}{}
+\item[]
+\begin{itemize}
+\setlength\itemsep{-0.5em}
+\item[-] 编程、长跑、徒步、垂钓
+\end{itemize}
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}

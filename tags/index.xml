@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>标签 on Xinbin</title>
+    <link>https://xinb.in/tags/</link>
+    <description>Recent content in 标签 on Xinbin</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2024 22:13:19 +0800</lastBuildDate>
+    <atom:link href="https://xinb.in/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟机</title>
+      <link>https://xinb.in/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/%E8%99%9A%E6%8B%9F%E6%9C%BA/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>工具</title>
+      <link>https://xinb.in/tags/%E5%B7%A5%E5%85%B7/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/%E5%B7%A5%E5%85%B7/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>软件</title>
+      <link>https://xinb.in/tags/%E8%BD%AF%E4%BB%B6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/%E8%BD%AF%E4%BB%B6/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LeetCode</title>
+      <link>https://xinb.in/tags/leetcode/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/leetcode/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>算法</title>
+      <link>https://xinb.in/tags/%E7%AE%97%E6%B3%95/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/%E7%AE%97%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>日记</title>
+      <link>https://xinb.in/tags/%E6%97%A5%E8%AE%B0/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/%E6%97%A5%E8%AE%B0/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://xinb.in/tags/git/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>GitHub</title>
+      <link>https://xinb.in/tags/github/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/tags/github/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

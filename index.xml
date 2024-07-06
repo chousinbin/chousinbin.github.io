@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Xinbin</title>
+    <link>https://xinb.in/</link>
+    <description>Recent content on Xinbin</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2024 22:13:19 +0800</lastBuildDate>
+    <atom:link href="https://xinb.in/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware个人免费授权</title>
+      <link>https://xinb.in/posts/2024-07-02-vmware%E4%B8%AA%E4%BA%BA%E6%8E%88%E6%9D%83/</link>
+      <pubDate>Tue, 02 Jul 2024 22:13:19 +0800</pubDate>
+      <guid>https://xinb.in/posts/2024-07-02-vmware%E4%B8%AA%E4%BA%BA%E6%8E%88%E6%9D%83/</guid>
+      <description>vmware</description>
+    </item>
+    <item>
+      <title>好用软件整理</title>
+      <link>https://xinb.in/posts/240628/</link>
+      <pubDate>Fri, 28 Jun 2024 16:05:24 +0800</pubDate>
+      <guid>https://xinb.in/posts/240628/</guid>
+      <description>视频 VLC 开源，界面简洁，功能强大，多平台支持。 PotPlayer 专注于 Windows 平台，具有优秀的硬件加速支持和高质量的音频 / 视频处理能力，特别是在高清和 4K 视频播放上表</description>
+    </item>
+    <item>
+      <title>LeetCode 75</title>
+      <link>https://xinb.in/posts/leetcode-75/</link>
+      <pubDate>Wed, 26 Jun 2024 20:59:29 +0800</pubDate>
+      <guid>https://xinb.in/posts/leetcode-75/</guid>
+      <description>LeetCode 75 题解</description>
+    </item>
+    <item>
+      <title>蓝桥杯国赛在 NEU</title>
+      <link>https://xinb.in/posts/240601/</link>
+      <pubDate>Sat, 01 Jun 2024 14:46:47 +0800</pubDate>
+      <guid>https://xinb.in/posts/240601/</guid>
+      <description>蓝桥杯国赛</description>
+    </item>
+    <item>
+      <title>忙与盲</title>
+      <link>https://xinb.in/posts/240331/</link>
+      <pubDate>Sun, 31 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/posts/240331/</guid>
+      <description>忙与盲</description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>https://xinb.in/posts/git/</link>
+      <pubDate>Thu, 21 Jul 2022 15:33:39 +0800</pubDate>
+      <guid>https://xinb.in/posts/git/</guid>
+      <description>Git</description>
+    </item>
+    <item>
+      <title>深夜的一声汽笛</title>
+      <link>https://xinb.in/posts/220608/</link>
+      <pubDate>Wed, 08 Jun 2022 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/posts/220608/</guid>
+      <description>深夜的一声汽笛唤起了我的乡愁</description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://xinb.in/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://xinb.in/about/</guid>
+      <description>👋Hi, my name is Xinbin. I was born in the Year of the Horse in a county town situated at the southern foot of Yanshan Mountain. Currently, I am pursuing my college education in Dalian.
+Background Dalian Jiaotong University, Software Engineering, 2021.09 - 2025.07
+Academic Score: 92.42 / 100 (Ranked 2nd out of 129)
+English Proficiency: CET-6
+Contact Please feel free to email chousinbin at Gmail or 163 email services.</description>
+    </item>
+  </channel>
+</rss>

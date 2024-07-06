@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>标签2 on Xinbin</title>
+    <link>http://localhost:1313/tags/%E6%A0%87%E7%AD%BE2/</link>
+    <description>Recent content in 标签2 on Xinbin</description>
+    <generator>Hugo -- 0.127.0</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 28 Jun 2024 16:05:24 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%A0%87%E7%AD%BE2/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>PC Tools</title>
+      <link>http://localhost:1313/posts/pc-tools/</link>
+      <pubDate>Fri, 28 Jun 2024 16:05:24 +0800</pubDate>
+      <guid>http://localhost:1313/posts/pc-tools/</guid>
+      <description>视频 VLC PotPlayer 图片 PicGo PicGo 是一个图床管理客户端，可与 Github、阿里云OSS 等服务搭建图床。 Snipasta 截图工具，支持吸附等功能，不支持长截图。 效率 Utools 快捷软件</description>
+    </item>
+  </channel>
+</rss>
