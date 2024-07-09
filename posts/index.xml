@@ -6,7 +6,7 @@
     <description>Recent content in 博客 on Xinbin</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 06 Jul 2024 20:27:57 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Jul 2024 21:40:08 +0800</lastBuildDate>
     <atom:link href="https://xinb.in/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GitHub Actions 自动部署 Hugo 博客</title>
@@ -23,11 +23,11 @@
       <description>vmware</description>
     </item>
     <item>
-      <title>好用软件整理</title>
+      <title>个人电脑工具整理</title>
       <link>https://xinb.in/posts/240628/</link>
       <pubDate>Fri, 28 Jun 2024 16:05:24 +0800</pubDate>
       <guid>https://xinb.in/posts/240628/</guid>
-      <description>视频 VLC 开源，界面简洁，功能强大，多平台支持。 PotPlayer 专注于 Windows 平台，具有优秀的硬件加速支持和高质量的音频 / 视频处理能力，特别是在高清和 4K 视频播放上表</description>
+      <description>工欲善其事必先利其器</description>
     </item>
     <item>
       <title>LeetCode 75</title>
